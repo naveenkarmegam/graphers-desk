@@ -112,6 +112,15 @@
   line-height: 30px;
   color: var(--white);
 }
+.case-study .bento-box .card h6{
+  font-size: 16px;
+  font-weight: 600;
+}
+.case-study .bento-box .card p{
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
 .case-study .bento-box .card-1 {
   background-color: var(--dark-pink);
   color: var(--white);
@@ -173,7 +182,7 @@
 }
 .services .content .card{
   border: 0;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 .services .content .card .card-body .p {
 height: 40%;
@@ -198,6 +207,7 @@ height: 40%;
 /* Testimonials */
 .testimonials{
   position: relative;
+  margin-bottom: 110px;
 }
 .testimonials .image-section {
   position: absolute;
@@ -232,8 +242,44 @@ height: 40%;
   line-height: 30px;
   font-size: 14px;
 }
-.testimonials .content-section .row .card .shadow {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+.testimonials .content-section .row .card  {
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+.who-we-are .section-title {
+  /* padding: 30px 0px; */
+  margin-bottom: 30px;
+}
+.who-we-are .ques h6{
+  font-size: 16px;
+  font-weight: 600;
+}
+.who-we-are .ques p{
+  font-size: 14px;
+  letter-spacing: 4%;
+  line-height: 30px;
+}
+.who-we-are .ques .card{
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+.who-we-are .section-title p {
+  text-align: center;
+  font-family: var(--font-family-sans);
+  font-weight: bold;
+  color: var(--vivid-orange);
+  letter-spacing: 4%;
+  font-size: 16px;
+}
+.who-we-are .section-title h5 {
+  text-align: center;
+  font-family: var(--font-family-righteous);
+  font-style: normal;
+  color: var(--charcoal-brown);
+  letter-spacing: 4%;
+  font-size: 24px;
 }
 
 .footer{
@@ -247,3 +293,5 @@ height: 40%;
   font-size: 16px;
   font-weight: 700;
 }
+
+
