@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;1,100;1,200;&family=Righteous&display=swap'); */
+:root {
+  --vivid-orange: #ff9d4d;
+  --charcoal-brown: #484545;
+  --light--beach: #ffdec3;
+  --white: #fff;
+  --dark-pink: #ff9281;
+  --dark-pink-shade:#fba977;
+  --pink-reddish:#E5918F;
+  --light-blue:#A2ABFD;
+  --font-family-noto-sans: "Noto Sans", sans-serif;
+  --font-family-righteous: "Righteous", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-noto-sans);
+}
+
+/* hero section */
+.hero .navigation {
+  gap: 75;
+}
+.hero .navbar .nav-link {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0px 5px;
+}
+
+.hero .hero-content .hero-text {
+  text-align: center;
+  font-size: 60px;
+}
+.hero .hero-content .hero-text p {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family-righteous);
+  letter-spacing: 2%;
+  line-height: 65px;
+  color: var(--charcoal-brown);
+}
+.hero .hero-content .hero-text p span {
+  color: var(--vivid-orange);
+  font-family: var(--font-family-righteous);
+}
+.hero .hero-content .hero-button {
+  text-align: center;
+  margin-top: 30px;
+}
+.hero .hero-content .hero-button button {
+  width: 250px;
+  height: 48px;
+  text-align: center;
+  border: 1px solid var(--vivid-orange);
+  color: var(--vivid-orange);
+  background: none;
+  border-radius: 30px;
+}
+.hero .hero-content .hero-button button:hover {
+  color: var(--white);
+  background: var(--vivid-orange);
+  border-radius: 30px;
+}
+
+/* case study section */
+.case-study .section-title {
+  /* padding: 30px 0px; */
+  margin-bottom: 30px;
+}
+.case-study .section-title p {
+  text-align: center;
+  font-family: var(--font-family-sans);
+  font-weight: bold;
+  color: var(--vivid-orange);
+  letter-spacing: 4%;
+  font-size: 16px;
+}
+.case-study .section-title h5 {
+  text-align: center;
+  font-family: var(--font-family-righteous);
+  font-style: normal;
+  color: var(--charcoal-brown);
+  letter-spacing: 4%;
+  font-size: 24px;
+}
+
+.case-study .explore-button {
+  margin-top: 30px;
+}
+.case-study .explore-button button {
+  border: 1px solid var(--vivid-orange);
+  font-weight: 500;
+  width: 148px;
+  height: 48px;
+  border-radius: 30px;
+  color: var(--vivid-orange);
+  background: none;
+}
+.case-study .explore-button button:hover {
+  background-color: var(--vivid-orange);
+  color: var(--white);
+}
+
+.case-study .bento-box .card{
+  border: 0;
+  border-radius: 30px ;
+  letter-spacing: 4%;
+  line-height: 30px;
+  color: var(--white);
+}
+.case-study .bento-box .card-1 {
+  background-color: var(--dark-pink);
+  color: var(--white);
+  padding: 20px 10px;
+}
+
+.case-study .bento-box .card-2 {
+  background-color: #ffe9bd;
+}
+.case-study .bento-box .card-2 div {
+  font-family: var(--font-family-righteous);
+  font-size: 60px;
+  color: var(--charcoal-brown);
+}
+
+.case-study .bento-box .card-3 {
+  background-color: #7fb07f;
+}
+.case-study .bento-box .card-3 div {
+  font-family: var(--font-family-righteous);
+  font-size: 60px;
+}
+
+.case-study .bento-box .card-4{
+  background-color: var(--dark-pink-shade);
+  line-height: 30px;
+  padding: 20px 10px;
+}
+
+.case-study .bento-box .card-5{
+  background-color: #8681ff;
+  text-align: justify;
+  padding: 20px 10px;
+}
+
+
+
+
+/* services */
+.services .section-title {
+  /* padding: 30px 0px; */
+  margin-bottom: 30px;
+}
+.services .section-title p {
+  text-align: center;
+  font-family: var(--font-family-sans);
+  font-weight: bold;
+  color: var(--vivid-orange);
+  letter-spacing: 4%;
+  font-size: 16px;
+}
+.services .section-title h5 {
+  text-align: center;
+  font-family: var(--font-family-righteous);
+  font-style: normal;
+  color: var(--charcoal-brown);
+  letter-spacing: 4%;
+  font-size: 24px;
+}
+.services .content .card{
+  border: 0;
+  border-radius: 25px;
+}
+.services .content .card .card-body .p {
+height: 40%;
+}
+.services .content .card .card-body p {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.services .content .card-1{
+  border: 2px solid var(--light-blue);
+  color: var(--light-blue);
+}
+.services .content .card-2{
+  border: 2px solid var(--dark-pink-shade);
+  color: var(--dark-pink-shade);
+}
+.services .content .card-3{
+  border: 2px solid var(--pink-reddish);
+  color: var(--pink-reddish);
+}
+/* Testimonials */
+.testimonials{
+  position: relative;
+}
+.testimonials .image-section {
+  position: absolute;
+  width:100%;
+  top: 60%;
+  z-index:-1;
+}
+.testimonials .content-section .section-title {
+  /* padding: 30px 0px; */
+  margin-bottom: 30px;
+}
+
+.testimonials .content-section .section-title p {
+  text-align: center;
+  font-family: var(--font-family-sans);
+  font-weight: bold;
+  color: var(--vivid-orange);
+  letter-spacing: 4%;
+  font-size: 16px;
+}
+.testimonials .content-section .section-title h5 {
+  text-align: center;
+  font-family: var(--font-family-righteous);
+  font-style: normal;
+  color: var(--charcoal-brown);
+  letter-spacing: 4%;
+  font-size: 24px;
+}
+
+.testimonials .content-section .row .card .card-body p {
+  letter-spacing: 4%;
+  line-height: 30px;
+  font-size: 14px;
+}
+.testimonials .content-section .row .card .shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+.footer{
+  background-color: var(--light--beach);
+  font-size: 14px;
+}
+.footer .row {
+  border-bottom: 2px dashed var(--charcoal-brown);
+}
+.footer h5{
+  font-size: 16px;
+  font-weight: 700;
+}
