@@ -15,6 +15,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="./assets/dist/owlcarousel/assets/owl.carousel.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -27,7 +31,11 @@
           <nav class="navbar navbar-expand-lg py-4">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="./assets/svg/Logo.svg" alt="Graphers desk" />
+                <img
+                  src="./assets/svg/Graphersdesk/Logo.svg"
+                  class="img-fluid"
+                  alt="Graphers desk"
+                />
               </a>
               <button
                 class="navbar-toggler"
@@ -50,8 +58,8 @@
                   >
                   <a class="nav-link" href="#">Case study</a>
                   <a class="nav-link" href="#">Design</a>
-                  <a class="nav-link" href="#">Development</a>
-                  <a class="nav-link" href="#">Marketing</a>
+                  <a class="nav-link" href="./development.html">Development</a>
+                  <a class="nav-link" href="./marketing.html">Marketing</a>
                   <a class="nav-link" href="#">Blog</a>
                 </div>
               </div>
@@ -67,13 +75,15 @@
                 <p>Crafting <span> Digital Success</span> stories</p>
                 <p>Through Important Solutions</p>
               </div>
-              <div class="hero-button">
-                <button class="btn">Let's create magic together</button>
+              <div class="hero-button mb-2 mb-sm-0">
+                <button class="btn fw-semibold">
+                  Let's create magic together
+                </button>
               </div>
             </div>
 
             <div class="col-lg-12 text-center">
-              <img src="./assets/svg/Hero bg.svg" class="img-fluid" alt="" />
+              <img src="./assets/svg/Graphersdesk/Hero bg.svg" class="img-fluid" alt="" />
             </div>
           </div>
         </section>
@@ -94,15 +104,17 @@
                   <div class="card-body d-flex flex-column flex-sm-row">
                     <div class="d-flex justify-content-center">
                       <img
-                        src="./assets/svg/case-study-icon.svg"
+                        src="./assets/svg/Graphersdesk/case-study-icon.svg"
                         class="text-center"
                         alt=""
                       />
                     </div>
                     <div
-                      class="case-text d-flex flex-column align-content-center justify-content-center"
+                      class="case-text d-flex flex-column align-content-center justify-content-center px-sm-3"
                     >
-                      <h6>Explore Our Cases</h6>
+                      <h6 class="text-center text-sm-start">
+                        Explore Our Cases
+                      </h6>
                       <p>
                         Discover real-world scenarios where our solutions have
                         transformed challenges into triumphs.
@@ -136,15 +148,17 @@
                   <div class="card-body d-flex flex-column flex-sm-row">
                     <div class="d-flex justify-content-center">
                       <img
-                        src="./assets/svg/success.svg"
+                        src="./assets/svg/Graphersdesk/success.svg"
                         class="text-center"
                         alt=""
                       />
                     </div>
                     <div
-                      class="case-text d-flex flex-column align-content-center justify-content-center"
+                      class="case-text d-flex flex-column align-content-center justify-content-center px-sm-3"
                     >
-                      <h6>Insights to Excellence</h6>
+                      <h6 class="text-center text-sm-start">
+                        Insights to Excellence
+                      </h6>
                       <p>
                         Unlock the strategies, insights, and remarkable results
                         that define our commitment to excellence. Delve into the
@@ -162,10 +176,10 @@
                 class="card-body d-flex flex-column flex-sm-row flex-xl-column"
               >
                 <div class="text-center py-4">
-                  <img src="./assets/svg/analysis_12355102.svg" alt="" />
+                  <img src="./assets/svg/Graphersdesk/analysis_12355102.svg" alt="" />
                 </div>
                 <div
-                  class="case-text d-flex flex-column flex-lg-column justify-content-center"
+                  class="case-text d-flex flex-column flex-lg-column justify-content-center px-sm-3 px-xl-0"
                 >
                   <h6>Discover Success</h6>
                   <p>
@@ -191,44 +205,109 @@
           <h5>Discover Our Expert Services</h5>
         </section>
 
-        <section class="content row">
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="card card-1 h-100">
-              <div class="card-body">
-                <div class="text-end">
-                  <img src="./assets/svg/campaign.svg" class="p-3" alt="" />
-                </div>
-                <div class="p">
-                  <p>Digital Marketing Services</p>
-                </div>
+        <section
+          class="content d-flex justify-content-center flex-wrap gap-4 gap-lg-4"
+        >
+          <div class="card card-1 h-100 mx-2 mt-4 mt-xl-0">
+            <div class="card-body card-body-1 d-flex flex-column">
+              <div class="text-end">
+                <img src="./assets/svg/Graphersdesk/campaign.svg" class="" alt="" />
+              </div>
+              <div class="p d-flex h-100">
+                <p class="align-self-end p-0 m-0">Digital Marketing Services</p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="card card-2 h-100">
-              <div class="card-body">
-                <div class="text-end">
+
+            <div class="card-body card-body-2 d-none">
+              <div class="header d-flex justify-content-around">
+                <h4 class="align-self-center">Digital Marketing Services</h4>
+                <img src="./assets/svg/Graphersdesk/campaign (1).svg" alt="" />
+              </div>
+              <div class="body">
+                <span>
+                  GraphersDesk, one of Chennai’s best digital marketing
+                  agencies, is dedicated to render its clients quality services
+                  with expertise. We believe in providing our clients with
+                  professional and expert digital marketing solutions and
+                  conducting a helpful marketing campaign.
+                </span>
+              </div>
+              <div class="arrow d-flex justify-content-end">
+                <span class="">
                   <img
-                    src="./assets/svg/designing-tool-icon.svg"
-                    class="p-4"
+                    src="./assets/svg/Graphersdesk/arrow-right.svg"
+                    class="pt-2 pe-2"
                     alt=""
                   />
-                </div>
-                <div class="p d-flex">
-                  <p class="align-self-center">Design</p>
-                </div>
+                </span>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="card card-3 h-100">
-              <div class="card-body">
-                <div class="text-end py-2">
-                  <img src="./assets/svg/Code.svg" class="p-4" alt="" />
-                </div>
-                <div class="p d-flex">
-                  <p class="align-self-center">Development</p>
-                </div>
+
+          <div class="card card-2 h-100 mx-2 mt-4 mt-xl-0">
+            <div class="card-body card-body-1 d-flex flex-column">
+              <div class="text-end">
+                <img
+                  src="./assets/svg/Graphersdesk/designing-tool-icon.svg"
+                  class="pt-2 pe-2"
+                  alt=""
+                />
+              </div>
+              <div class="p d-flex h-100">
+                <p class="align-self-end p-0 m-0">Design</p>
+              </div>
+            </div>
+            <div class="card-body card-body-2 d-none">
+              <div class="header d-flex justify-content-around">
+                <h4 class="align-self-center">Digital Marketing Services</h4>
+                <img src="./assets/svg/Graphersdesk/designing-tool-icon (1).svg" alt="" />
+              </div>
+              <div class="body">
+                <span>
+                  We believe in the power of aesthetics to cast a spell on your
+                  audience. Our UX designing conjures experiences that enchant
+                  and engage, while our graphic design and video editing weave
+                  visual tales that mesmerize.
+                </span>
+              </div>
+              <div class="arrow d-flex justify-content-end">
+                <span class="">
+                  <img
+                    src="./assets/svg/Graphersdesk/arrow-right.svg"
+                    class="pt-2 pe-2"
+                    alt=""
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-3 h-100 mx-2 mt-4 mt-xl-0">
+            <div class="card-body card-body-1 d-flex flex-column">
+              <div class="text-end">
+                <img src="./assets/svg/Graphersdesk/Code.svg" class="pt-2 pe-2" alt="" />
+              </div>
+              <div class="p d-flex h-100">
+                <p class="align-self-end p-0 m-0">Development</p>
+              </div>
+            </div>
+            <div class="card-body card-body-2 d-none">
+              <div class="header d-flex justify-content-around">
+                <h4 class="align-self-center">Digital Marketing Services</h4>
+                <img src="./assets/svg/Graphersdesk/Code (1).svg" class="pt-2 pe-2" alt="" />
+              </div>
+              <div class="body">
+                <span>
+                  Code is our language, and software is our canvas. From web
+                  development that leaves users in awe to seamless mobile and
+                  cloud solutions, we paint masterpieces of functionality and
+                  elegance that elevate your brand in the digital universe.
+                </span>
+              </div>
+              <div class="arrow d-flex justify-content-end">
+                <span class="">
+                  <img src="./assets/svg/Graphersdesk/arrow-right.svg" alt="" />
+                </span>
               </div>
             </div>
           </div>
@@ -237,85 +316,89 @@
 
       <!-- Testimonials -->
       <article class="testimonials">
-        <section class="content-section container d-flex flex-column gap-3 py-5">
+        <section
+          class="content-section container d-flex flex-column gap-3 py-5"
+        >
           <div class="section-title mx-auto">
             <p>TESTIMONIALS</p>
             <h5>Echoes of Client Success</h5>
           </div>
-          <div class="row mx-5" >
-            <div class="col-lg-4 align-self-lg-end mt-4 mt-lg-0 px-3">
-              <div class="card">
-                <div class="card-body">
-                  <div class="mb-5">
-                    <p>
-                      Being one of the best digital marketing agencies in
-                      Chennai, GraphersDesk is an upcoming realm that aids your
-                      business to grow higher by understanding and satisfying
-                      the customer needs and business.
-                    </p>
-                  </div>
-
-                  <div
-                    class="d-flex flex-column flex-sm-row justify-content-between"
-                  >
-                    <div>
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
+          <div class="row justify-content-center mx-sm-5 gap-5">
+            <div class="owl-carousel">
+              <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 px-3 w-100">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-5">
+                      <p>
+                        Being one of the best digital marketing agencies in
+                        Chennai, GraphersDesk is an upcoming realm that aids
+                        your business to grow higher by understanding and
+                        satisfying the customer needs and business.
+                      </p>
                     </div>
-                    <p class="text-end">Amelia Rose ~</p>
+
+                    <div
+                      class="d-flex flex-column flex-sm-row justify-content-between align-content-center"
+                    >
+                      <div class="d-flex my-auto">
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                      </div>
+                      <p class="m-0 text-end">Amelia Rose ~</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 align-self-lg-start mt-4 mt-lg-0 px-3 pb-0 pb-lg-5">
-              <div class="card shadow">
-                <div class="card-body">
-                  <div class="mb-5">
-                    <p>
-                      Being one of the best digital marketing agencies in
-                      Chennai, GraphersDesk is an upcoming realm that aids your
-                      business to grow higher by understanding and satisfying
-                      the customer needs and business.
-                    </p>
-                  </div>
-
-                  <div
-                    class="d-flex flex-column flex-sm-row justify-content-between"
-                  >
-                    <div>
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
+              <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 px-3 w-100">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <div class="mb-5">
+                      <p>
+                        Being one of the best digital marketing agencies in
+                        Chennai, GraphersDesk is an upcoming realm that aids
+                        your business to grow higher by understanding and
+                        satisfying the customer needs and business.
+                      </p>
                     </div>
-                    <p class="text-end">Amelia Rose ~</p>
+
+                    <div
+                      class="d-flex flex-column flex-sm-row justify-content-between align-content-center"
+                    >
+                      <div class="d-flex my-auto">
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                      </div>
+                      <p class="m-0 text-end">Amelia Rose ~</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 align-self-lg-end mt-4 mt-lg-0 px-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <div class="mb-5">
-                    <p>
-                      Being one of the best digital marketing agencies in
-                      Chennai, GraphersDesk is an upcoming realm that aids your
-                      business to grow higher by understanding and satisfying
-                      the customer needs and business.
-                    </p>
-                  </div>
-                  <div
-                    class="d-flex flex-column flex-sm-row justify-content-between"
-                  >
-                    <div>
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
-                      <img src="./assets/svg/star-rating 4.svg" alt="" />
+              <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 px-3 w-100">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-5">
+                      <p>
+                        Being one of the best digital marketing agencies in
+                        Chennai, GraphersDesk is an upcoming realm that aids
+                        your business to grow higher by understanding and
+                        satisfying the customer needs and business.
+                      </p>
                     </div>
-                    <p class="text-end">Amelia Rose ~</p>
+                    <div
+                      class="d-flex flex-column flex-sm-row justify-content-between align-content-center"
+                    >
+                      <div class="d-flex my-auto">
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                        <img src="./assets/svg/Graphersdesk/star-rating 4.svg" alt="" />
+                      </div>
+                      <p class="m-0 text-end">Amelia Rose ~</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -323,7 +406,7 @@
           </div>
         </section>
         <section class="image-section d-none d-lg-block">
-          <img src="./assets/svg/Frame 42.svg" alt="" width="100%" />
+          <img src="./assets/svg/Graphersdesk/Frame 42.svg" alt="" width="100%" />
         </section>
       </article>
 
@@ -333,20 +416,24 @@
           <p>WHO WE ARE</p>
           <h5>Uncover Our Essence</h5>
         </section>
-        <section class="ques row justify-content-center"  >
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="text-center border-0 mb-4">
+        <section class="ques row justify-content-center">
+          <div class="col-lg-10 col-sm-12">
+            <div class="row justify-content-center">
+              <div class="col-lg-6 col-md-8" style="width: 292px">
+                <div class="text-center border-0 mb-4 d-none d-sm-block">
                   <!-- <div class="card-body text-center"> -->
-                    <img src="./assets/svg/who-we-are-image.svg" class="img-fluid" alt="" />
+                  <img
+                    src="./assets/svg/Graphersdesk/who-we-are-image.svg"
+                    class="img-fluid"
+                    alt=""
+                  />
                   <!-- </div> -->
                 </div>
                 <div class="card">
                   <div class="card-body">
                     <div class="py-4">
                       <img
-                        src="./assets/svg/digital-marketing-wizards 1.svg"
+                        src="./assets/svg/Graphersdesk/digital-marketing-wizards 1.svg"
                         alt=""
                       />
                     </div>
@@ -361,12 +448,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 mt-0 mt-lg-5">
+              <div class="col-lg-6 col-md-8 mt-0 mt-lg-5" style="width: 292px">
                 <div class="card mt-4 mt-lg-0 mb-4">
                   <div class="card-body">
                     <div class="py-4">
                       <img
-                        src="./assets/svg/digital-marketing-wizards 1.svg"
+                        src="./assets/svg/Graphersdesk/digital-marketing-wizards 1.svg"
                         alt=""
                       />
                     </div>
@@ -385,7 +472,7 @@
                   <div class="card-body">
                     <div class="py-4">
                       <img
-                        src="./assets/svg/digital-marketing-wizards 1.svg"
+                        src="./assets/svg/Graphersdesk/digital-marketing-wizards 1.svg"
                         alt=""
                       />
                     </div>
@@ -399,10 +486,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-
-              </div>
-
               </div>
             </div>
           </div>
@@ -411,10 +494,12 @@
 
       <footer class="footer mt-5 pt-5 pb-3">
         <div class="container">
-          <section class="row justify-content-center pb-3">
+          <section
+            class="row justify-content-center pb-3 text-center text-md-start"
+          >
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
               <div class="text-center mb-3">
-                <img src="./assets/svg/logo-icon-white 2.svg" alt="" />
+                <img src="./assets/svg/Graphersdesk/logo-icon-white 2.svg" alt="" />
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -448,24 +533,24 @@
                 <ul class="list-unstyled d-flex justify-content-around">
                   <li>
                     <a class="nav-link" href="#"
-                      ><img src="./assets/svg/Linked in.svg" alt=""
+                      ><img src="./assets/svg/Graphersdesk/Linked in.svg" alt=""
                     /></a>
                   </li>
                   <li>
                     <a class="nav-link" href="#"
-                      ><img src="./assets/svg/fb.svg" alt=""
+                      ><img src="./assets/svg/Graphersdesk/fb.svg" alt=""
                     /></a>
                   </li>
                   <li>
                     <a class="nav-link" href="#"
-                      ><img src="./assets/svg/instagram.svg" alt=""
+                      ><img src="./assets/svg/Graphersdesk/instagram.svg" alt=""
                     /></a>
                   </li>
                 </ul>
               </div>
             </div>
           </section>
-          <section class="text-center pt-4">
+          <section class="copy text-center pt-4">
             <p>
               Copyright ©2024 All rights reserved | Designed & Developed by
               GraphersDesk
@@ -474,5 +559,17 @@
         </div>
       </footer>
     </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/dist/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+      });
+    </script>
   </body>
 </html>
